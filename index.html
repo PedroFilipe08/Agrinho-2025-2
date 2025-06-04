@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>AGRINHO 2025 - Conexão Campo & Cidade</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">AGRINHO 2025</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./energia.html">Energia Rural</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./agua.html">Acessibilidade a Água</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./producao.html">Produção</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Conectando Campo e Cidade em AGRINHO 2025</h1>
+    <p>Celebrando a força da agricultura brasileira e promovendo o diálogo entre quem produz e quem consome.</p>
+    <a href="#about" class="btn btn-primary">Saiba Mais</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <h2 class="section-title">Sobre a Zona Rural</h2>
+    <p>
+      A zona rural é o coração do Brasil, responsável por alimentar o país e o mundo. Contudo, ainda há uma grande distância
+      entre campo e cidade, marcada por desinformação e desconhecimento sobre os processos e a importância do setor agrícola.
+      O AGRINHO 2025 propõe uma ponte, conectando produtores, consumidores e toda a cadeia produtiva com inovação e respeito.
+    </p>
+  </section>
+
+  <!-- Features Cards -->
+  <section id="features" class="container py-5">
+    <h2 class="section-title">Áreas de Atuação</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card" tabindex="0" role="button">
+          <img src="./assets/image/cachoeira.jpg"
+            class="card-img-top" alt="Acessibilidade a Água" />
+          <div class="card-body">
+            <h5 class="card-title">Acessibilidade a Água</h5>
+            <p class="card-text">
+              Garantir que cada comunidade rural tenha acesso garantido e sustentável à água potável, mantendo a saúde e fomentando a agricultura resiliente.
+            </p>
+            <a href="./agua.html" class="btn btn-outline-light">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" tabindex="0" role="button">
+          <img src="./assets/image/energiaruralplaca.png"
+            class="card-img-top" alt="Energia Rural" />
+          <div class="card-body">
+            <h5 class="card-title">Energia Rural</h5>
+            <p class="card-text">
+              Uso de energias limpas e inovadoras no campo, para promover a sustentabilidade e qualidade de vida das populações rurais.
+            </p>
+            <a href="./energia.html" class="btn btn-outline-light">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" tabindex="0" role="button">
+          <img src="./assets/image/colhendo.jpg"
+            class="card-img-top" alt="Produção e Industrialização" />
+          <div class="card-body">
+            <h5 class="card-title">Produção e Industrialização</h5>
+            <p class="card-text">
+              Desenvolvimento de práticas produtivas sustentáveis, agregando valor, inovação e impulsionando a economia do campo.
+            </p>
+            <a href="./producao.html" class="btn btn-outline-light">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carousel -->
+  <section class="container py-5">
+    <h2 class="section-title text-center mb-4">Galeria Visual</h2>
+    <div id="carouselExample" class="carousel slide rounded-4 shadow-lg" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner rounded-4 overflow-hidden">
+        <div class="carousel-item active">
+          <img src="./assets/image/frutasdiadasmaes.png"
+            class="d-block w-100" alt="Imagem campo com plantações" />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/image/pordosol.jpg"
+            class="d-block w-100" alt="Imagem de energia renovável no campo" />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/image/caderno.jpg"
+            class="d-block w-100" alt="Imagem produção agrícola" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 AGRINHO 2025 - Celebrando a conexão entre Campo e Cidade. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
